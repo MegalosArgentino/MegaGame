@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.games ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games li {
+    margin: 10px 0;
+}
+
+.games a {
+    color: #ff7f50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.games a:hover {
+    text-decoration: underline;
+}
+
+.chat {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe4b5;
+    border-radius: 10px;
+}
+
+#chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#messages {
+    height: 200px;
+    overflow-y: scroll;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#username, #message {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: #ff7f50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

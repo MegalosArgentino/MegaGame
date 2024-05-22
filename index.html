@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos de Megalos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Videojuegos de Megalos</h1>
+        <img src="images/fox-paw.png" alt="Huella de zorro" class="logo">
+    </header>
+
+    <main>
+        <section class="games">
+            <h2>Mis Videojuegos</h2>
+            <ul>
+                <!-- Agrega los links a tus videojuegos aquí -->
+                <li><a href="https://link-a-tu-juego1.com">Juego 1</a></li>
+                <li><a href="https://link-a-tu-juego2.com">Juego 2</a></li>
+                <li><a href="https://link-a-tu-juego3.com">Juego 3</a></li>
+                <!-- Continúa agregando más juegos -->
+            </ul>
+        </section>
+
+        <section class="chat">
+            <h2>Chat</h2>
+            <div id="chat-box">
+                <div id="messages"></div>
+                <input type="text" id="username" placeholder="Tu nombre">
+                <input type="text" id="message" placeholder="Escribe un mensaje">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Videojuegos de Megalos</p>
+    </footer>
+
+    <script src="chat.js"></script>
+</body>
+</html>
